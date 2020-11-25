@@ -9,5 +9,6 @@
         "/home/arrina/local/lib/python/site-packages",
         "/home/arrina/local/lib/python2.7/site-package",
         "/home/arrina/local/python/"
-    ]
+    ],
+    "python.pythonPath": "/usr/bin/python"
 }
