@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <node name="filter_data_finger0" pkg="sun_finger_sensors_filter" type="filter_data" output="screen">
+        <param name="/wsg50/wsg50_tactile_sensors_filter/finger" type=integer value="0"/>
+        <param name="/wsg50/wsg50_tactile_sensors_filter/samplerate" type=double value="300"/>
+    </node>
+
+    <node name="filter_data_finger1" pkg="sun_finger_sensors_filter" type="filter_data" output="screen">
+        <param name="/wsg50/wsg50_tactile_sensors_filter/finger" type=integer value="1"/>
+        <param name="/wsg50/wsg50_tactile_sensors_filter/samplerate" type=double value="300"/>
+    </node>
+
+</launch>
